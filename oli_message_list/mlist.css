@@ -1,0 +1,66 @@
+body {
+  background-color: background-color: rgba(50, 115, 220, 0.3);;
+  font-family: 'Open Sans', sans-serif;
+  color: #212529;
+}
+
+li {
+  font: 200 20px/1.5 Helvetica, Verdana, sans-serif;
+  border-bottom: 1px solid #ccc;
+  margin: 1.5em;
+}
+
+.messageButton {
+  color: #444444;
+  background: #F3F3F3;
+  border: 1px #DADADA solid;
+  padding: 10px 20px;
+  border-radius: 2px;
+  font-weight: bold;
+  font: 13px "Lucida Sans Unicode", "Lucida Grande", sans-serif;
+  outline: none;
+}
+
+.navbarButton {
+  color: #4B99AD;
+  background: white;
+  padding: 8px 20px;
+  border-radius: 2px;
+  font-weight: bold;
+  font: 13px "Lucida Sans Unicode", "Lucida Grande", sans-serif;
+  outline: none;
+}
+
+.inputText {
+  margin:10px auto;
+  width: 800px;
+  color: blue;
+  padding: 20px 12px 10px 20px;
+  font: 13px "Lucida Sans Unicode", "Lucida Grande", sans-serif;
+}
+
+.row {
+  position: relative;
+  width: 100%;
+}
+
+p {
+  font-size: 1.125rem;
+  font-weight: 200;
+  line-height: 1.8;
+  margin-left: auto;
+  margin-right: auto;
+}
+
+
+.largeBr {
+  content: "";
+  margin: 8em;
+  display: block;
+  font-size: 24%;
+}
+
+h1 {
+  font-size: 2.5rem;
+}
+

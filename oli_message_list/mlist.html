@@ -1,0 +1,52 @@
+<!DOCTYPE html>
+<html>
+
+<head>
+	<meta charset="utf-8">
+	<title>Message List</title>
+
+</head>
+
+<body>
+
+	<div class="row-list">
+
+		<div>
+			<a href = "mlist.html">
+				<div class="navbarButton" id="homeButton"> Home </div>
+			</a>
+		</div>
+
+		<div>
+			<a href= "about.html">
+				<div class="navbarButton" id="AboutButton"> About</div>
+			</a>
+		</div>
+
+		<div class = "largeBr">
+
+			<h1>
+				Messeage List App
+			</h1>
+			<div class="row">
+				<input id="addMessage" class="inputText" type="text" placeholder="new message" name="" value="">
+				<br/>
+				<input type="button" class = "messageButton" id="buttonAdd" value = "add a message" onclick="addAMessage()">
+				<input type="button" class = "messageButton" id="buttonClearForm" value = "clear the form " onclick="clearForm()" >
+				<input type="button" class = "messageButton" id="buttonClear" value = "clear all messages" onclick="clearMessages()" >
+			</div>
+
+
+			<div class = "list-of-messages" id = "messages-list">
+				<ul id="messages">
+					<!-- we add new message here-->
+				</ul>
+			</div>
+		</div>
+
+		<script type="text/javascript" src="mlist.js"></script>
+		<link rel="stylesheet" type="text/css" href="mlist.css">
+
+
+	</body>
+	</html>
